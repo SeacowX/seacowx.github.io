@@ -7,6 +7,7 @@ const basecolor = "#777";
 const accentcolor = "#FE8019";
 const accentcolor2 = "#8EC07C";
 const accentcolor3 = "#458588";
+const accentcolor4 = "#427b58";
 const highlightcolor = "#000000";
 const highlightcolor2 = "#282828";
 
@@ -36,7 +37,7 @@ const menuhover = accentcolor2;
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor2;
+const headercolor = accentcolor4;
 const headerfontsize = "24pt";
 const headerdecoration = "none";
 const namecolor = highlightcolor;
