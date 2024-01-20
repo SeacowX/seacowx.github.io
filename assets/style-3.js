@@ -1,6 +1,6 @@
 // Initialize font properties
 const fontname = "Roboto+Mono";
-const fontweights = [300, 400]
+const fontweights = [300, 400];
 
 // Color properties
 const basecolor = "#777";
@@ -37,7 +37,6 @@ const headerfontsize = "18pt";
 const headerdecoration = "none";
 const namecolor = highlightcolor;
 const namefontsize = "23pt";
-
 
 // Publication properties
 const ptitlecolor = accentcolor;
@@ -76,7 +75,13 @@ const instyearsize = "11px";
 //         }
 
 // Works for sans serif, change otherwise
-$("head").append("<link href='https://fonts.googleapis.com/css2?family=" + fontname + ":wght@" + fontweights.join(';') + "&display=swap' rel='stylesheet' type='text/css'>");
+$("head").append(
+  "<link href='https://fonts.googleapis.com/css2?family=" +
+    fontname +
+    ":wght@" +
+    fontweights.join(";") +
+    "&display=swap' rel='stylesheet' type='text/css'>",
+);
 $("body").css("font-family", fontname);
 
 $("body").css("color", basecolor);
