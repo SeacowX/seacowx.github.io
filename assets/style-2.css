@@ -19,6 +19,11 @@ a:hover {
   padding: 4px;
 }
 
+img {
+  width: 60px;
+  height: auto;
+}
+
 .tag {
   padding-right: 2px;
 }
@@ -41,7 +46,8 @@ a:hover {
 }
 
 .profilepic {
-  width: 150px;
+  width: 160px;
+  height: auto;
   border-radius: 40%;
   /* filter: grayscale(100%); */
 }
@@ -65,7 +71,7 @@ a:hover {
   }
 
   .profilepic {
-    width: 90px;
+    width: 160px;
     border-radius: 40%;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
