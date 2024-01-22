@@ -51,7 +51,7 @@ a:hover {
     /* width: 50%;
             margin-left: 50%;
             min-height:100%; */
-    position: fixed;
+    position: static;
   }
 }
 
