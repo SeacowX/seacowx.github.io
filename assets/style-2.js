@@ -41,7 +41,7 @@ const headercolor = accentcolor4;
 const headerfontsize = "24pt";
 const headerdecoration = "none";
 const namecolor = highlightcolor;
-const namefontsize = "36pt";
+const namefontsize = "48pt";
 
 // Publication properties
 const ptitlecolor = accentcolor;
