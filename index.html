@@ -64,12 +64,42 @@
       <div class="row pt-5 allstuff">
         <div class="col-md-4 pt-5">
           <div class="fixed-posi">
-            <p class="name"><b>Hainiu Xu</b></p>
-            <p class="name">许海牛</p>
-            <p style="font-size:18px;">Pronounced as (hai nyou) </p>
-            <br />        
+            <p class="name">Hainiu Xu<br>许海牛</p>
+            <!-- <button id="ASong" onClick="playPause()"> -->
+            <!--   <audio src="assets/name.mp3" ></audio> -->
+            <!--   Song -->
+            <!-- </button> -->
+            <!---->
+            <!-- <script> -->
+            <!--   var aud = document.getElementById("ASong").children[0]; -->
+            <!--   var isPlaying = false; -->
+            <!--   aud.pause(); -->
+            <!---->
+            <!--   function playPause() { -->
+            <!--     if (isPlaying) { -->
+            <!--       aud.pause(); -->
+            <!--     } else { -->
+            <!--       aud.play(); -->
+            <!--     } -->
+            <!--     isPlaying = !isPlaying; -->
+            <!--   } -->
+            <!-- </script> -->
+            <script>
+              function delay (URL) {
+                  setTimeout( function() { window.location = URL }, 5000 );
+              }
+            </script>
+
+            <!-- This is where the audio file is specified -->
+            <audio id="player" src="assets/name.mp3"></audio>
+
+            <!-- The hyperlink is specified via the javascript delay -->
+            <div>
+              <p style="font-size: 18px;">
+                Pronounced as <a href="javascript:delay('index.html')" onclick="document.getElementById('player').play()">(hai nyou)&nbsp <i class="fa fa-volume-up" aria-hidden="true"></i></a>
+              </p>
+            </div>
             <img src="images/hainiu-cartoon.png" class="profilepic pt-3 pb-2" />
-            <br />        
             <br />        
             <div class="minor_text" style="padding-top: 2px;">
               <a class="menulink" target="_blank" style="" href="assets/Hainiu-CV-2023.pdf"><i class="fa fa-file-pdf-o fa-lg"></i> </a><span class="headtagsep"></span>
@@ -79,8 +109,9 @@
               <a class="menulink" target="_blank" style="" href="https://github.com/seacowx"><i class="fa fa-github-alt fa-lg"></i></a><span class="headtagsep"></span>
               <span class="headtagsep"></span>
               <a class="menulink" target="_blank" style="" href="https://twitter.com/seacow_x"><i class="fa fa-twitter fa-lg"></i></a><span class="headtagsep"></span>
+              <a class="menulink" target="_blank" style="" href="https://www.linkedin.com/in/hainiu-xu-116685a4/"><i class="fa fa-linkedin-square fa-lg"></i></a><span class="headtagsep"></span>
             </div>
-            <br />
+            <br>
             <p>
               (N)5 Postgraduate Office<br>
               Bush House<br>
@@ -440,7 +471,7 @@
     }
 
     .headtagsep {
-		padding: 3px;
+		padding: 2.5px;
 		}
 
     @media (min-width: 768px) {
