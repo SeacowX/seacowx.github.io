@@ -105,6 +105,7 @@ $(".header").css("color", headercolor);
 $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
 $(".header").css("font-weight", highlightfontweight);
+// $(".header").css("position", "sticky");
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 $(".name").css("font-weight", highlightfontweight);
