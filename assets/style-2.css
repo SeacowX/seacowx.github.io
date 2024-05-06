@@ -93,6 +93,18 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.dotted1 {
+  border: 12px solid #557153; 
+  border-style: none none solid;
+  border-radius: 12px;
+}
+
+.dotted2 {
+  border: 6px solid #557153; 
+  border-style: none none solid;
+  border-radius: 12px;
+}
+
 @media (min-width: 768px) {
   .fixed-posi {
     /* width: 50%;

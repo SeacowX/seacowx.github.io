@@ -5,11 +5,11 @@ const fontweights = [300, 400];
 // Color properties
 const basecolor = "#777";
 const accentcolor = "#EDF1D6";
-const accentcolor2 = "#4D4C7D";
+const accentcolor2 = "#2E4F4F";
 const accentcolor3 = "#609966";
 const accentcolor4 = "#40513B";
 const highlightcolor = "#12372A";
-const highlightcolor2 = "#074173";
+const highlightcolor2 = "#0A4D68";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -23,7 +23,7 @@ const backgroundcolor = "#fff";
 
 // Link properties
 const acolor = accentcolor;
-const adecoration = "none";
+const adecoration = "overline";
 const ahovercolor = accentcolor2;
 // const ahoverduration = "0.3s";
 const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
