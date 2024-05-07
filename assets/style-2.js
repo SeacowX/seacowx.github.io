@@ -3,13 +3,15 @@ const fontname = "Ubuntu";
 const fontweights = [300, 400];
 
 // Color properties
-const basecolor = "#777";
+const basecolor = "#000000";
 const accentcolor = "#EDF1D6";
 const accentcolor2 = "#2E4F4F";
-const accentcolor3 = "#609966";
+const accentcolor3 = "#527853";
 const accentcolor4 = "#40513B";
+const accentcolor5 = "#186F65";
 const highlightcolor = "#12372A";
-const highlightcolor2 = "#0A4D68";
+const highlightcolor2 = "#3A8891";
+const highlightcolor3 = "#2D4356";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -18,30 +20,31 @@ const highlightcolor2 = "#0A4D68";
 // Body propertie000000
 const bodyfontweight = 300;
 const highlightfontweight = 800;
-const bodyfontsize = "14pt";
+const highlightfontweight2 = 1000;
+const bodyfontsize = "12pt";
 const backgroundcolor = "#fff";
 
 // Link properties
 const acolor = accentcolor;
-const adecoration = "overline";
+const adecoration = "none";
 const ahovercolor = accentcolor2;
 // const ahoverduration = "0.3s";
 const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
 const menucolor = basecolor;
-const menufontsize = "18pt";
+const menufontsize = "15pt";
 const menudecoration = "none";
 const menuhover = accentcolor2;
 // const menuhoverduration = "0.3s";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor4;
+const headercolor = highlightcolor3;
 const headerfontsize = "24pt";
 const headerdecoration = "none";
 const namecolor = highlightcolor;
-const namefontsize = "48pt";
+const namefontsize = "36pt";
 
 // Publication properties
 const ptitlecolor = accentcolor;
@@ -57,7 +60,7 @@ const authorstyle = "normal";
 
 const selfcolor = highlightcolor2;
 const selfweight = bodyfontweight;
-const selfdecoration = "none";
+const selfdecoration = "underline";
 const selfstyle = "normal";
 
 const tagcolor = accentcolor;
@@ -94,7 +97,7 @@ $("body").css("font-weight", bodyfontweight);
 $("body").css("font-size", bodyfontsize);
 $("body").css("background-color", backgroundcolor);
 
-$("a").css("color", accentcolor2);
+$("a").css("color", accentcolor5);
 $("a").css("text-decoration", adecoration);
 
 $(".menulink").css("color", menucolor);
@@ -117,7 +120,7 @@ $(".papertitle").css("text-decoration", ptitledecoration);
 $(".papertitle").css("font-style", ptitlestyle);
 
 $(".thisauthor").css("color", selfcolor);
-$(".thisauthor").css("font-weight", highlightfontweight);
+$(".thisauthor").css("font-weight", highlightfontweight2);
 $(".thisauthor").css("text-decoration", selfdecoration);
 $(".thisauthor").css("font-style", selfstyle);
 

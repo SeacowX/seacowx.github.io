@@ -1,4 +1,4 @@
-.instilogo {
+2instilogo {
   height: 50px;
   filter: grayscale(20%);
 }
@@ -24,7 +24,7 @@ a:hover {
 }
 
 .side-text {
-  font-size: 14pt;
+  font-size: 12pt;
   color: #000000
 }
 
@@ -46,7 +46,7 @@ a:hover {
 }
 
 .profilepic {
-  width: 270px;
+  width: 240px;
   height: auto;
   border-radius: 40%;
   /* filter: grayscale(100%); */
