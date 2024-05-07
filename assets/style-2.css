@@ -49,7 +49,7 @@ a:hover {
   width: 240px;
   height: auto;
   border-radius: 40%;
-  /* filter: grayscale(100%); */
+  filter: grayscale(25%);
 }
 
 .profilepic3 {
@@ -88,7 +88,7 @@ a:hover {
 .side-panel {
   background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency as needed */
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   background-image: url('../images/blurred-bg.png');
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
