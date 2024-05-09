@@ -38,6 +38,7 @@
   <!--   <img src="./images/a9206850-3574-4621-ad88-f2f120acf67b.jpeg" alt="Header Image"> -->
   <!-- </header> -->
   <!-- <h1>Hello, world!</h1> -->
+  <br>
   <div class="container pt-2 allstuffp">
     <div class="row pt-1 allstuff">
       <div class="col-md-4 pt-0">
@@ -416,7 +417,7 @@
       const deltaY = mouseY - containerCenterY;
       const percentageX = deltaX / (containerRect.width / 2);
       const percentageY = deltaY / (containerRect.height / 2);
-      card.style.transform = `scale(1.1) rotateY(${percentageX * 10}deg) rotateX(${percentageY * -10}deg) translateZ(5px)`;
+      card.style.transform = `scale(1.1) rotateY(${percentageX * 10}deg) rotateX(${-percentageY * -10}deg) translateZ(5px)`;
     });
 
     container.addEventListener('mouseleave', () => {
@@ -486,6 +487,7 @@
     padding-top: 45px;
     align-items: top;
     height: 400;
+    perspective: 2500px;
   }
 
   .expmeta {}
