@@ -42,7 +42,7 @@
     <div class="row pt-1 allstuff">
       <div class="col-md-4 pt-0">
         <div class='card-container'>
-          <div class='card', id='card'>
+          <div class='arc-card', id='card'>
             <div class="fixed-posi pt-0">
               <p class="name">Hainiu Xu<br>许海牛</p>
               <script>
@@ -416,7 +416,7 @@
       const deltaY = mouseY - containerCenterY;
       const percentageX = deltaX / (containerRect.width / 2);
       const percentageY = deltaY / (containerRect.height / 2);
-      card.style.transform = `rotateY(${percentageX * 15}deg) rotateX(${percentageY * -15}deg) translateZ(10px)`;
+      card.style.transform = `scale(1.1) rotateY(${percentageX * 10}deg) rotateX(${percentageY * -10}deg) translateZ(5px)`;
     });
 
     container.addEventListener('mouseleave', () => {
@@ -447,15 +447,45 @@
     border-radius: 20px;
     padding: 30px;
     background-color: #EEEEEE;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
+
+  .arc-card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    transform-style: preserve-3d;
+    background-color: #EEEEEE;
+    transition: all 0.1s ease;
+  }
+
+  .arc-card:hover {
+    transform: scale(1.5) rotateY(0deg) rotateX(0deg);
+  }
+
+  .arc-card:hover::before,
+  .arc-card:hover::after {
+    transform: rotateY(0deg);
+  }
+
+  .arc-card::before,
+  .arc-card::after {
+    content: '';
+    position: absolute;
+    height: 400;
+    background-color: inherit;
+    backface-visibility: hidden;
+    transition: transform 0.1s ease;
+  }
+
 
   .card-container {
     display: flex;
     justify-content: center;
     padding-top: 45px;
     align-items: top;
-    height: 100vh;
+    height: 400;
   }
 
   .expmeta {}
