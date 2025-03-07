@@ -8,10 +8,12 @@ const accentcolor = "#EDF1D6";
 const accentcolor2 = "#2E4F4F";
 const accentcolor3 = "#527853";
 const accentcolor4 = "#40513B";
-const accentcolor5 = "#186F65";
+const accentcolor5 = "#65A180";
 const highlightcolor = "#12372A";
-const highlightcolor2 = "#3A8891";
+const highlightcolor2 = "#5861AC";
 const highlightcolor3 = "#2D4356";
+
+//const accentcolor3 = "#86b17f";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
